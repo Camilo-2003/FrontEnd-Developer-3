@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+</head>
+<body>
+    <main>
+        <h2>Seleccione Un Curso</h2>
+        <select name="cursos">
+        <option value="">Seleccione</option>
+        <option value="javascript">JavaScript</option>
+        <option value="html5">Html5</option>
+        <option value="css3">Css3</option>
+        <option value="php">Php</option>
+        <option value="web-standards">Web Standards</option>
+        </select>
+
+        <input list="cursos" placeholder="Busca un curso aqui">
+        <datalist id="cursos">
+            <option value="javascript"></option>
+            <option value="html5"></option>
+            <option value="css3"></option>
+            <option value="php"></option>
+            <option value="web-standards"></option>
+        </datalist>
+    </main>
+</body>
+</html>

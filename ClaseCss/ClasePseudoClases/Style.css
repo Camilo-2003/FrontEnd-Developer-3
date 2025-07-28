@@ -1,0 +1,25 @@
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: rgb(20, 98, 150);
+    padding: 20px;
+    border-radius: 8px;
+}
+.main-nav-item {
+    display: inline-block;
+}
+.main-nav-item a {
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+.main-nav-item a:hover {
+    color: red;
+}
+.main-nav-item a:active {
+    color: yellow;
+}
+.main-nav-item a::after {
+    content: " || ";
+}

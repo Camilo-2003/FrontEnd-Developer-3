@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title {
+    font-size: 19px;
+    font-family: monospace;
+    font-family: serif;
+    color: red;
+    margin-bottom: 10px;
+}
+.nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+.nav li {
+    display: inline-block;
+}
+.nav li a {
+    color: white;
+    background-color: rgb(31, 120, 123);
+    padding: 8px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.nav .blog {
+    background-color: red;
+}

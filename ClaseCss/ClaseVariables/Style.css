@@ -1,0 +1,34 @@
+:root {
+    --color-p: #003476;
+    --color-s: #e8e8e8;
+    --header-size: 4rem;
+    --font: 1.8rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+header {
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--color-p);
+}
+main {
+    width: 100vw;
+    height: 70vh;
+    font-size: var(--font);
+    background-color: var(--color-s);
+}
+h1 {
+    font-size: var(--header-size);
+    color: var(--color-p);
+}
+footer {
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--color-p);
+}
